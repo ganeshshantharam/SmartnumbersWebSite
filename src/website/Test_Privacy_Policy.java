@@ -54,5 +54,12 @@ public class Test_Privacy_Policy extends Common_Config
 	  
   }
   
+  @Test(priority=42)
+  public void close_browser() throws InterruptedException
+  {
+	   
+	  browserClose();
+
+  }
   
 }

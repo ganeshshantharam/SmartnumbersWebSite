@@ -3,7 +3,7 @@
 <suite name="Automate Testing of Resilient Website">
 	<test name="Resilient Website">
 		<classes>
-			<class name="website.Test_HomePage_LowerBanner" />
+			<class name="website.Test_Privacy_Policy" />
 		</classes>
 	</test>
 </suite>
