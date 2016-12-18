@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19497" started-at="2016-12-12T20:03:24Z" finished-at="2016-12-12T20:03:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19497" started-at="2016-12-12T20:03:24Z" finished-at="2016-12-12T20:03:44Z">
+      <class name="website.Test_Privacy_Policy">
+        <test-method status="PASS" signature="gotoMainHomePage()[pri:40, instance:website.Test_Privacy_Policy@61832929]" name="gotoMainHomePage" duration-ms="8410" started-at="2016-12-12T20:03:24Z" finished-at="2016-12-12T20:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoMainHomePage -->
+        <test-method status="PASS" signature="privacyPolicy()[pri:41, instance:website.Test_Privacy_Policy@61832929]" name="privacyPolicy" duration-ms="11069" started-at="2016-12-12T20:03:33Z" finished-at="2016-12-12T20:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicy -->
+      </class> <!-- website.Test_Privacy_Policy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

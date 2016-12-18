@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Automate Testing of Resilient Website">
+	<test name="Resilient Website">
+		<classes>
+			<class name="website.Test_HomePage_LowerBanner" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automate Testing of Resilient Website]">
+  <test name="Resilient Website(failed)">
+    <classes>
+      <class name="website.Test_HomePage_LowerBanner">
+        <methods>
+          <include name="mainPage_banner_click_Solutions_CallRecording"/>
+        </methods>
+      </class> <!-- website.Test_HomePage_LowerBanner -->
+    </classes>
+  </test> <!-- Resilient Website(failed) -->
+</suite> <!-- Failed suite [Automate Testing of Resilient Website] -->

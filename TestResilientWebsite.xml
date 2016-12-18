@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Automate Testing of Resilient Website" >
+	<test name="Resilient Website">
+		<classes>
+			<class name="website.Test_HomePage_FindOutMoreOptions" />
+			<class name="website.Test_HomePage_LowerBanner" />
+			<class name="website.Test_HomePage_MenueOptions" />
+			<class name="website.Test_ResourcesPage" />
+			<class name="website.Test_Products_OverviewPage" />
+		   
+		</classes>
+	</test>
+</suite>
