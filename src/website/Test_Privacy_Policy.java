@@ -11,55 +11,48 @@ public class Test_Privacy_Policy extends Common_Config
 
 {
 	
-	String baseUrl = "http://www.resilientplc.com";
+		String baseUrl = "http://www.resilientplc.com";
 	  
 	  
-	  public void invoke_browser()
+	  public void Invoke_Browser()
 	  {
 		  launchBrowser();
 		  
 	  }
-	
 	  
-	  public void navigateToSite() throws InterruptedException
+	  public void NavigateToSite() throws InterruptedException
 	  {
-		  
-
 		  driver.navigate().to(baseUrl);   
 		  driver.manage().window().maximize();
-				  	   
 	  } 
 	  
 	  
 	@Test(priority=40)
-	  public void gotoMainHomePage() throws InterruptedException 
+	  public void GoToMainHomePage() throws InterruptedException 
 	  {
-		  invoke_browser();
-		  navigateToSite();
+		  Invoke_Browser();
+		  NavigateToSite();
 		  Thread.sleep(3000);
 	  }	  
 	
-  @Test(priority=41)
-  public void privacyPolicy() throws InterruptedException
-  {
-	  
-	  WebDriverWait wd = new WebDriverWait(driver, 30);
-  	  
-	  movetoElmentXpath("//*[@id='menu-item-65']/a");
-	  wd.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='menu-item-65']/a"))).click();
-	  Thread.sleep(3000);
-	  verifyPageTitle("Privacy Policy • Resilientplc");
-	  gotoHome(".//*[@id='logo']");
-	  
-	  
-  }
+	  @Test(priority=41)
+	  public void PrivacyPolicy() throws InterruptedException
+	  {
+		  WebDriverWait wd = new WebDriverWait(driver, 30);
+	  	  
+		  movetoElmentXpath("//*[@id='menu-item-65']/a");
+		  wd.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='menu-item-65']/a"))).click();
+		  Thread.sleep(3000);
+		  verifyPageTitle("Privacy Policy • Resilientplc");
+		  gotoHome(".//*[@id='logo']");
+	  }
   
-  @Test(priority=42)
-  public void close_browser() throws InterruptedException
-  {
-	   
-	  browserClose();
-
-  }
+	  @Test(priority=42)
+	  public void Close_Browser() throws InterruptedException
+	  {
+		   
+		  browserClose();
+	
+	  }
   
 }

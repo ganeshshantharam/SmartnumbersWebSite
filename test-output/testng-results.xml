@@ -1,25 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="23" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Automate Testing of Resilient Website" duration-ms="20838" started-at="2016-12-18T11:47:10Z" finished-at="2016-12-18T11:47:31Z">
+  <suite name="Default suite" duration-ms="399546" started-at="2016-12-21T22:48:53Z" finished-at="2016-12-21T22:55:32Z">
     <groups>
     </groups>
-    <test name="Resilient Website" duration-ms="20838" started-at="2016-12-18T11:47:10Z" finished-at="2016-12-18T11:47:31Z">
-      <class name="website.Test_Privacy_Policy">
-        <test-method status="PASS" signature="gotoMainHomePage()[pri:40, instance:website.Test_Privacy_Policy@5b275dab]" name="gotoMainHomePage" duration-ms="7754" started-at="2016-12-18T11:47:10Z" finished-at="2016-12-18T11:47:17Z">
+    <test name="Default test" duration-ms="399546" started-at="2016-12-21T22:48:53Z" finished-at="2016-12-21T22:55:32Z">
+      <class name="website.Test_HomePage_File_MenueOptions">
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_Blog()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_Blog" duration-ms="17870" started-at="2016-12-21T22:48:53Z" finished-at="2016-12-21T22:49:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gotoMainHomePage -->
-        <test-method status="PASS" signature="privacyPolicy()[pri:41, instance:website.Test_Privacy_Policy@5b275dab]" name="privacyPolicy" duration-ms="9925" started-at="2016-12-18T11:47:17Z" finished-at="2016-12-18T11:47:27Z">
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_Blog -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_Careers()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_Careers" duration-ms="17283" started-at="2016-12-21T22:49:11Z" finished-at="2016-12-21T22:49:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- privacyPolicy -->
-        <test-method status="PASS" signature="close_browser()[pri:42, instance:website.Test_Privacy_Policy@5b275dab]" name="close_browser" duration-ms="3141" started-at="2016-12-18T11:47:27Z" finished-at="2016-12-18T11:47:31Z">
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_Careers -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_Management()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_Management" duration-ms="17293" started-at="2016-12-21T22:49:28Z" finished-at="2016-12-21T22:49:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- website.Test_Privacy_Policy -->
-    </test> <!-- Resilient Website -->
-  </suite> <!-- Automate Testing of Resilient Website -->
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_Management -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_News()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_News" duration-ms="18799" started-at="2016-12-21T22:49:45Z" finished-at="2016-12-21T22:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_News -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_Overview()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_Overview" duration-ms="17605" started-at="2016-12-21T22:50:04Z" finished-at="2016-12-21T22:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_Overview -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_Resources()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_Resources" duration-ms="17278" started-at="2016-12-21T22:50:21Z" finished-at="2016-12-21T22:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_Resources -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_AboutUs_SocialResponsibility()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_AboutUs_SocialResponsibility" duration-ms="17585" started-at="2016-12-21T22:50:39Z" finished-at="2016-12-21T22:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_AboutUs_SocialResponsibility -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Customers()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Customers" duration-ms="16324" started-at="2016-12-21T22:50:56Z" finished-at="2016-12-21T22:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Customers -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Partners_DistributionPartners()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Partners_DistributionPartners" duration-ms="17249" started-at="2016-12-21T22:51:13Z" finished-at="2016-12-21T22:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Partners_DistributionPartners -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Partners_Overview()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Partners_Overview" duration-ms="17865" started-at="2016-12-21T22:51:30Z" finished-at="2016-12-21T22:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Partners_Overview -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Partners_TechnologyPartners()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Partners_TechnologyPartners" duration-ms="17310" started-at="2016-12-21T22:51:48Z" finished-at="2016-12-21T22:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Partners_TechnologyPartners -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Products_Overview()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Products_Overview" duration-ms="17115" started-at="2016-12-21T22:52:05Z" finished-at="2016-12-21T22:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Products_Overview -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Products_SmartnumbersCallRecording()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Products_SmartnumbersCallRecording" duration-ms="17198" started-at="2016-12-21T22:52:22Z" finished-at="2016-12-21T22:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Products_SmartnumbersCallRecording -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Products_SmartnumbersControl()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Products_SmartnumbersControl" duration-ms="17349" started-at="2016-12-21T22:52:39Z" finished-at="2016-12-21T22:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Products_SmartnumbersControl -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Products_SmartnumbersFaceToFaceRecording()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Products_SmartnumbersFaceToFaceRecording" duration-ms="16500" started-at="2016-12-21T22:52:57Z" finished-at="2016-12-21T22:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Products_SmartnumbersFaceToFaceRecording -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_Products_SmartnumbersMobile()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_Products_SmartnumbersMobile" duration-ms="17246" started-at="2016-12-21T22:53:13Z" finished-at="2016-12-21T22:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_Products_SmartnumbersMobile -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenu_BusinessContinuity()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenu_BusinessContinuity" duration-ms="17360" started-at="2016-12-21T22:53:31Z" finished-at="2016-12-21T22:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenu_BusinessContinuity -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenu_CallRecording()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenu_CallRecording" duration-ms="17876" started-at="2016-12-21T22:53:48Z" finished-at="2016-12-21T22:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenu_CallRecording -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenu_FaceToFaceRecording()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenu_FaceToFaceRecording" duration-ms="18674" started-at="2016-12-21T22:54:06Z" finished-at="2016-12-21T22:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenu_FaceToFaceRecording -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenu_OfficeMoves()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenu_OfficeMoves" duration-ms="16452" started-at="2016-12-21T22:54:24Z" finished-at="2016-12-21T22:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenu_OfficeMoves -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenue_OverviewOption()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenue_OverviewOption" duration-ms="17448" started-at="2016-12-21T22:54:41Z" finished-at="2016-12-21T22:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenue_OverviewOption -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_SolutionsMenue_TwoNumbersOneMobile()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_SolutionsMenue_TwoNumbersOneMobile" duration-ms="17136" started-at="2016-12-21T22:54:58Z" finished-at="2016-12-21T22:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_SolutionsMenue_TwoNumbersOneMobile -->
+        <test-method status="PASS" signature="MainPage_FileMenu_Click_TermsAndConditions()[pri:8, instance:website.Test_HomePage_File_MenueOptions@29774679]" name="MainPage_FileMenu_Click_TermsAndConditions" duration-ms="16692" started-at="2016-12-21T22:55:15Z" finished-at="2016-12-21T22:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FileMenu_Click_TermsAndConditions -->
+      </class> <!-- website.Test_HomePage_File_MenueOptions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

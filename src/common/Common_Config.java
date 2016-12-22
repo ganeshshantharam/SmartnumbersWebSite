@@ -76,12 +76,13 @@ public class Common_Config {
 	 
   }
   
-  public void movetoElmentXpathAndClick(String elementXpath)
+  public void movetoElmentXpathAndClick(String elementXpath) throws InterruptedException
   {
 	
 	  Actions act=new Actions(driver);
 	  WebElement element = driver.findElement(By.xpath(elementXpath));
 	  act.moveToElement(element).build().perform();
+	  Thread.sleep(3000);
 	  element.click();
 	  
   }
@@ -95,12 +96,13 @@ public class Common_Config {
 	  
   }
   
-  public void movetoElmentCssAndClick(String elementCss)
+  public void movetoElmentCssAndClick(String elementCss) throws InterruptedException
   {
 	
 	  Actions act=new Actions(driver);
 	  WebElement element = driver.findElement(By.cssSelector(elementCss));
 	  act.moveToElement(element).build().perform();
+	  Thread.sleep(3000);
 	  element.click();
 	  
   }

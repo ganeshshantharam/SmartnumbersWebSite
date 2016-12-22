@@ -3,11 +3,12 @@
 <suite name="Failed suite [Automate Testing of Resilient Website]">
   <test name="Resilient Website(failed)">
     <classes>
-      <class name="website.Test_HomePage_LowerBanner">
+      <class name="website.Test_HomePage_CustomerTestimonials">
         <methods>
-          <include name="mainPage_banner_click_Solutions_CallRecording"/>
+          <include name="mainPage_customer_testimonials_click_Sainsburys"/>
+          <include name="mainPage_customer_testimonials_click_NorthamptonBoroughCouncil"/>
         </methods>
-      </class> <!-- website.Test_HomePage_LowerBanner -->
+      </class> <!-- website.Test_HomePage_CustomerTestimonials -->
     </classes>
   </test> <!-- Resilient Website(failed) -->
 </suite> <!-- Failed suite [Automate Testing of Resilient Website] -->

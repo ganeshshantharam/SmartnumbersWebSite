@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Automate Testing of Resilient Website]">
+  <test name="Resilient Website(failed)">
     <classes>
-      <class name="website.Test_Privacy_Policy">
+      <class name="website.Test_HomePage_CustomerTestimonials">
         <methods>
-          <include name="privacyPolicy"/>
+          <include name="mainPage_customer_testimonials_click_Sainsburys"/>
+          <include name="mainPage_customer_testimonials_click_NorthamptonBoroughCouncil"/>
         </methods>
-      </class> <!-- website.Test_Privacy_Policy -->
+      </class> <!-- website.Test_HomePage_CustomerTestimonials -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Resilient Website(failed) -->
+</suite> <!-- Failed suite [Automate Testing of Resilient Website] -->

@@ -3,12 +3,14 @@
 <suite name="Automate Testing of Resilient Website" >
 	<test name="Resilient Website">
 		<classes>
+			<class name="website.Test_HomePage_CustomerTestimonials" />
+			<class name="website.Test_HomePage_File_MenueOptions" />
 			<class name="website.Test_HomePage_FindOutMoreOptions" />
 			<class name="website.Test_HomePage_LowerBanner" />
-			<class name="website.Test_HomePage_MenueOptions" />
-			<class name="website.Test_ResourcesPage" />
+			<class name="website.Test_HomePage_SmartnumbersBusinessServices" />
+			<class name="website.Test_Privacy_Policy" />
 			<class name="website.Test_Products_OverviewPage" />
-		   
+			<class name="website.Test_ResourcesPage" />
 		</classes>
 	</test>
 </suite>
