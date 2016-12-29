@@ -39,7 +39,6 @@ public class Test_Privacy_Policy extends Common_Config
 	  public void PrivacyPolicy() throws InterruptedException
 	  {
 		  WebDriverWait wd = new WebDriverWait(driver, 30);
-	  	  
 		  movetoElmentXpath("//*[@id='menu-item-65']/a");
 		  wd.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='menu-item-65']/a"))).click();
 		  Thread.sleep(3000);
