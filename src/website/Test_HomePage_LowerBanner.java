@@ -43,8 +43,8 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  	  		  
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4607']/a");
-		  Thread.sleep(3000);
-		  verifyPageTitle("Solutions • Resilientplc");
+		  Thread.sleep(3010);
+		  verifyPageTitle("Solutions â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -53,7 +53,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4473']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("The enterprise mobile • Resilientplc");
+		  verifyPageTitle("The enterprise mobile â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	 	  
@@ -62,7 +62,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {	  
 		  movetoElmentXpathAndClick("//*[@id='menu-item-4475']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Call recording • Resilientplc");
+		  verifyPageTitle("Call recording â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  } 
 
@@ -71,7 +71,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4628']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Face-to-face • Resilientplc");
+		  verifyPageTitle("Face-to-face â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -80,7 +80,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4477']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Office moves • Resilientplc");
+		  verifyPageTitle("Office moves â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -89,7 +89,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {  
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4479']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Protect critical numbers • smartnumbers");
+		  verifyPageTitle("Protect critical numbers â€¢ smartnumbers");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -100,7 +100,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {  
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4606']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("smartnumbers overview • Resilientplc");
+		  verifyPageTitle("smartnumbers overview â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -118,7 +118,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4585']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("smartnumbers call recording • Resilientplc");
+		  verifyPageTitle("smartnumbers call recording â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 
@@ -127,7 +127,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4586']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("smartnumbers face-to-face-recording • Resilientplc");
+		  verifyPageTitle("smartnumbers face-to-face-recording â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -136,7 +136,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4484']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("About smartnumbers control • smartnumbers");
+		  verifyPageTitle("About smartnumbers control â€¢ smartnumbers");
 		  gotoHome(".//*[@id='logo']");
 	  }
 
@@ -149,7 +149,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4492']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Partners • Resilientplc");
+		  verifyPageTitle("Partners â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -158,7 +158,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4491']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Distribution partners • Resilientplc");
+		  verifyPageTitle("Distribution partners â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 
@@ -167,7 +167,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4494']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Technology partners • Resilientplc");
+		  verifyPageTitle("Technology partners â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 
@@ -180,7 +180,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4588']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("About us • Resilientplc");
+		  verifyPageTitle("About us â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -189,7 +189,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  { 
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4590']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Careers • Resilientplc");
+		  verifyPageTitle("Careers â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 
@@ -199,7 +199,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 		  Thread.sleep(3000);
 		  movetoElmentXpathAndClick(".//*[@id='menu-item-4591']/a");
 		  Thread.sleep(3000);
-		  verifyPageTitle("Management • Resilientplc");
+		  verifyPageTitle("Management â€¢ Resilientplc");
 		  gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -208,7 +208,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {  
 	  	movetoElmentXpathAndClick(".//*[@id='menu-item-4592']/a");
 	  	Thread.sleep(3000);
-	  	verifyPageTitle("Social responsibility • Resilientplc");
+	  	verifyPageTitle("Social responsibility â€¢ Resilientplc");
 	  	gotoHome(".//*[@id='logo']");
 	  }
 	  
@@ -217,7 +217,7 @@ public class Test_HomePage_LowerBanner extends Common_Config  {
 	  {
 	  	movetoElmentXpathAndClick(".//*[@id='menu-item-4589']/a");
 	  	Thread.sleep(3000);
-	  	verifyPageTitle("News • Resilientplc");
+	  	verifyPageTitle("News â€¢ Resilientplc");
 	  	gotoHome(".//*[@id='logo']");
 	  }
 	    
